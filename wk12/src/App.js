@@ -1,18 +1,13 @@
-import React from "react";
-import "./App.css";
-import StudentList from "./StudentList";
-import AddStudent from "./AddStudent";
-import DeleteStudent from "./DeleteStudent";
+import React from 'react';
+import logo from './logo.svg';
+import './App.css';
+import StudentList from "./components/StudentList"
 
 function App() {
   return (
-    <div className="App">
-      <AddStudent />
-      <DeleteStudent />
-      <ul>
-        <StudentList />
-      </ul>
-    </div>
+    <>
+      <StudentList></StudentList>
+    </>
   );
 }
 
