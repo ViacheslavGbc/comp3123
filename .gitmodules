@@ -1,0 +1,3 @@
+[submodule "speedchatapp"]
+	path = speedchatapp
+	url = ./Assignment_II/speedchatapp
